@@ -8,4 +8,8 @@ public class Node {
         L = nl;
         R = nr;
     }
+
+    public String toString(){
+        return root;
+    }
 }

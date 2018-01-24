@@ -7,8 +7,8 @@ public class Homework1 {
 		Node Rt = null;
 		String input = "";
 		// Begin of arguments input sample
-		if (args.length > 0) {
-			input = args[0];
+		if (args.length == 0) {
+			input = "251-*32*+";
 		}
 
 		for(int i=0; i< input.length();i++){
@@ -20,6 +20,7 @@ public class Homework1 {
 		String Output = Inorder(Rt);
 		System.out.println(Output.substring(1,Output.length()-1) + " = " + Calculate(Rt));
 
+		TreeIconDemo2.main(Rt);
 
 	}
 
